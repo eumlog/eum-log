@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { ArrowDown, Sparkles, MessageSquare, Heart, Info } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const ProcessSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);

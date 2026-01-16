@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainPageHeader from '../ui/MainPageHeader';
 import FooterSection from '../sections/FooterSection';
-import { IMAGES, getImageKeys, DEFAULT_IMAGES, refreshAssets } from '../../constants/assets';
+import { IMAGES, getImageKeys, DEFAULT_IMAGES, refreshAssets } from '../../lib/assets';
 import { 
   Upload, Save, RotateCcw, AlertCircle, Loader2, Database, CheckCircle, Info, Trash2, 
   LayoutGrid, Layers, Workflow, AppWindow, Copy, Download, RefreshCw, Eye, ExternalLink, FileText 

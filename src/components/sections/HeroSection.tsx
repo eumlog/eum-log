@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ArrowDown } from 'lucide-react';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const HeroSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);

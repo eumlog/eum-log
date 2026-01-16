@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { Shield, MessageCircle, Coins } from 'lucide-react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const SystemFeaturesSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);

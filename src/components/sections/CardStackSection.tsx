@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { MapPin, ShieldCheck, Users } from 'lucide-react';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const CardStackSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);

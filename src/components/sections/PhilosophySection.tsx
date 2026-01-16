@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const PhilosophySection: React.FC = () => {
   return (

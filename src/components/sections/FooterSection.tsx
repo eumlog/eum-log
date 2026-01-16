@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { IMAGES } from '../../constants/assets';
+import { IMAGES } from '../../lib/assets';
 
 const FooterSection: React.FC = () => {
   return (
@@ -25,7 +25,7 @@ const FooterSection: React.FC = () => {
 
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-4 mt-24 text-sm font-semibold tracking-wider text-gray-400">
           <Link to="/instagram" className="hover:text-white transition-colors">인스타그램</Link>
-          <a href="https://pf.kakao.com/_Cxfxcxo" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">카카오톡 문의</a>
+          <a href="https://pf.kakao.com/_Cxfxcxon" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">카카오톡 문의</a>
           <Link to="/faq" className="hover:text-white transition-colors">자주 묻는 질문</Link>
         </div>
         
