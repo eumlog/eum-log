@@ -4,15 +4,15 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
-// Renamed Imports to fix case-sensitivity issues
+// Layouts
 import MainNavbar from './components/layout/MainNavbar';
 import FloatingMenu from './components/layout/FloatingMenu';
 import IntroPreloader from './components/ui/IntroPreloader';
 
-// Pages - Renamed all to '...Main.tsx' to force git/netlify file refresh
-import HomePage from './components/pages/HomePage';
-import AboutPage from './components/pages/AboutPage';
-import ServicePage from './components/pages/ServicePage';
+// Pages - All renamed to '...Main.tsx' to force git file refresh and fix case-sensitivity
+import HomeMain from './components/pages/HomeMain';
+import AboutMain from './components/pages/AboutMain';
+import ServiceMain from './components/pages/ServiceMain';
 import CriteriaMain from './components/pages/CriteriaMain';
 import PricingMain from './components/pages/PricingMain';
 import FaqMain from './components/pages/FaqMain';
@@ -71,9 +71,9 @@ const AppContent: React.FC = () => {
         {showFloatingBanner && <FloatingMenu />}
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/service" element={<ServicePage />} />
+          <Route path="/" element={<HomeMain />} />
+          <Route path="/about" element={<AboutMain />} />
+          <Route path="/service" element={<ServiceMain />} />
           <Route path="/criteria" element={<CriteriaMain />} />
           <Route path="/pricing" element={<PricingMain />} />
           <Route path="/faq" element={<FaqMain />} />
