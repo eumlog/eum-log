@@ -9,10 +9,10 @@ import MainNavbar from './components/layout/MainNavbar';
 import FloatingMenu from './components/layout/FloatingMenu';
 import IntroPreloader from './components/ui/IntroPreloader';
 
-// Pages
+// Pages - Renamed all to end with 'Page' to fix git casing issues on Netlify
 import HomePage from './components/pages/HomePage';
-import About from './components/pages/About';
-import Service from './components/pages/Service';
+import AboutPage from './components/pages/AboutPage';
+import ServicePage from './components/pages/ServicePage';
 import CriteriaPage from './components/pages/CriteriaPage';
 import PricingPage from './components/pages/PricingPage';
 import FaqPage from './components/pages/FaqPage';
@@ -72,8 +72,8 @@ const AppContent: React.FC = () => {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service" element={<Service />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/service" element={<ServicePage />} />
           <Route path="/criteria" element={<CriteriaPage />} />
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/faq" element={<FaqPage />} />
