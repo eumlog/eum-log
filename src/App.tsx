@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import './index.css'; // Ensure global styles are loaded
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
