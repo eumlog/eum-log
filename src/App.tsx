@@ -4,12 +4,13 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 
-import Navbar from './components/layout/Navbar';
-import FloatingBanner from './components/layout/FloatingBanner';
-import Preloader from './components/ui/Preloader';
+// Renamed Imports to fix case-sensitivity issues
+import MainNavbar from './components/layout/MainNavbar';
+import FloatingMenu from './components/layout/FloatingMenu';
+import IntroPreloader from './components/ui/IntroPreloader';
 
 // Pages
-import Home from './components/pages/Home';
+import HomePage from './components/pages/HomePage';
 import About from './components/pages/About';
 import Service from './components/pages/Service';
 import CriteriaPage from './components/pages/CriteriaPage';
@@ -53,12 +54,12 @@ const AppContent: React.FC = () => {
     }
   }, [loading]);
 
-  // Hide FloatingBanner on Contact Page to avoid overlapping
+  // Hide FloatingMenu on Contact Page to avoid overlapping
   const showFloatingBanner = location.pathname !== '/contact';
 
   return (
     <>
-      {loading && <Preloader onComplete={() => setLoading(false)} />}
+      {loading && <IntroPreloader onComplete={() => setLoading(false)} />}
       
       {/* We keep content rendered but hidden to ensure layout is ready */}
       <div 
@@ -66,11 +67,11 @@ const AppContent: React.FC = () => {
         className="min-h-screen flex flex-col justify-between transition-opacity duration-500" 
         style={{ opacity: loading ? 0 : 1 }}
       >
-        <Navbar />
-        {showFloatingBanner && <FloatingBanner />}
+        <MainNavbar />
+        {showFloatingBanner && <FloatingMenu />}
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/criteria" element={<CriteriaPage />} />
