@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Process from '../sections/Process';
+import ProcessSection from '../sections/ProcessSection';
 import Footer from '../sections/Footer';
 
 const ServiceMain: React.FC = () => {
@@ -12,7 +12,7 @@ const ServiceMain: React.FC = () => {
       />
       
       {/* Detailed 7-Step Process */}
-      <Process />
+      <ProcessSection />
       
       <div className="bg-[#0f0f0f] text-white">
         <Footer />

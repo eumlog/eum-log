@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Pricing from '../sections/Pricing';
+import PricingSection from '../sections/PricingSection';
 import Footer from '../sections/Footer';
 
 const PricingMain: React.FC = () => {
@@ -11,7 +11,7 @@ const PricingMain: React.FC = () => {
         subtitle="Pricing Plan" 
       />
       
-      <Pricing />
+      <PricingSection />
       
       <div className="bg-[#0f0f0f] text-white">
         <Footer />

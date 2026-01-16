@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Criteria from '../sections/Criteria';
+import CriteriaSection from '../sections/CriteriaSection';
 import Footer from '../sections/Footer';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const CriteriaMain: React.FC = () => {
       
       {/* Background changed to white to match the light theme Criteria component */}
       <div className="bg-white">
-          <Criteria />
+          <CriteriaSection />
       </div>
 
       <div className="py-32 text-center bg-white border-t border-gray-100">

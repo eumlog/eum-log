@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import FAQ from '../sections/FAQ';
+import FaqSection from '../sections/FaqSection';
 import Footer from '../sections/Footer';
 import { Link } from 'react-router-dom';
 import { MessageCircle } from 'lucide-react';
@@ -14,7 +14,7 @@ const FaqMain: React.FC = () => {
       />
       
       <div className="py-20">
-          <FAQ />
+          <FaqSection />
 
           {/* Contact Link Section */}
           <div className="max-w-2xl mx-auto px-6 mt-16 text-center">
