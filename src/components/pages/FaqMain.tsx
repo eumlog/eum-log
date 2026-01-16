@@ -1,5 +1,5 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import FAQ from '../sections/FAQ';
 import Footer from '../sections/Footer';
 import { Link } from 'react-router-dom';
@@ -8,7 +8,7 @@ import { MessageCircle } from 'lucide-react';
 const FaqMain: React.FC = () => {
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="무엇이든 물어보세요" 
         subtitle="F.A.Q" 
       />

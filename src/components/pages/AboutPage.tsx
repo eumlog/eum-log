@@ -1,12 +1,12 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Footer from '../sections/Footer';
 import { Shield, Heart, Coins, MapPin, UserCheck, MessageCircle, Infinity as InfinityIcon } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
   return (
     <div className="bg-white min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="이음로그 이야기" 
         subtitle="About Us" 
       />

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Footer from '../sections/Footer';
 import { IMAGES, getImageKeys, DEFAULT_IMAGES, refreshAssets } from '../../constants/assets';
 import { 
@@ -165,7 +165,7 @@ const AdminMain: React.FC = () => {
 
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader title="이미지 관리자" subtitle="Admin Panel" />
+      <MainPageHeader title="이미지 관리자" subtitle="Admin Panel" />
 
       <div className="py-24 px-6 max-w-[1100px] mx-auto">
         

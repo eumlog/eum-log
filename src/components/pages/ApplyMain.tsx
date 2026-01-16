@@ -1,5 +1,5 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Footer from '../sections/Footer';
 import { MapPin, ArrowRight, Lock } from 'lucide-react';
 
@@ -37,7 +37,7 @@ const ApplyMain: React.FC = () => {
 
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="매칭 신청하기" 
         subtitle="Apply for Match" 
       />

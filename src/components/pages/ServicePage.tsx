@@ -1,12 +1,12 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Process from '../sections/Process';
 import Footer from '../sections/Footer';
 
 const ServicePage: React.FC = () => {
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="이음로그 진행 방식" 
         subtitle="Process" 
       />

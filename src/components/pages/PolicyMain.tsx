@@ -1,11 +1,11 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Footer from '../sections/Footer';
 
 const PolicyMain: React.FC = () => {
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="운영 규정 및 환불 약관" 
         subtitle="Operational Policy" 
       />

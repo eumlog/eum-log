@@ -1,12 +1,12 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Footer from '../sections/Footer';
 import { MessageCircle, Instagram, ExternalLink, Headset } from 'lucide-react';
 
 const ContactMain: React.FC = () => {
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="만남을 시작하세요" 
         subtitle="Contact Us" 
       />

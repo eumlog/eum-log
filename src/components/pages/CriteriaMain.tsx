@@ -1,5 +1,5 @@
 import React from 'react';
-import PageHeader from '../ui/PageHeader';
+import MainPageHeader from '../ui/MainPageHeader';
 import Criteria from '../sections/Criteria';
 import Footer from '../sections/Footer';
 import { Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const CriteriaMain: React.FC = () => {
   return (
     <div className="bg-eum-bg min-h-screen">
-      <PageHeader 
+      <MainPageHeader 
         title="엄격한 가입 기준" 
         subtitle="Membership Criteria" 
       />
