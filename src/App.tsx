@@ -9,18 +9,18 @@ import MainNavbar from './components/layout/MainNavbar';
 import FloatingMenu from './components/layout/FloatingMenu';
 import IntroPreloader from './components/ui/IntroPreloader';
 
-// Pages - Renamed all to end with 'Page' to fix git casing issues on Netlify
+// Pages - Renamed all to '...Main.tsx' to force git/netlify file refresh
 import HomePage from './components/pages/HomePage';
 import AboutPage from './components/pages/AboutPage';
 import ServicePage from './components/pages/ServicePage';
-import CriteriaPage from './components/pages/CriteriaPage';
-import PricingPage from './components/pages/PricingPage';
-import FaqPage from './components/pages/FaqPage';
-import ContactPage from './components/pages/ContactPage';
-import ApplyPage from './components/pages/ApplyPage';
-import AdminPage from './components/pages/AdminPage';
-import InstagramRegionsPage from './components/pages/InstagramRegionsPage';
-import PolicyPage from './components/pages/PolicyPage';
+import CriteriaMain from './components/pages/CriteriaMain';
+import PricingMain from './components/pages/PricingMain';
+import FaqMain from './components/pages/FaqMain';
+import ContactMain from './components/pages/ContactMain';
+import ApplyMain from './components/pages/ApplyMain';
+import AdminMain from './components/pages/AdminMain';
+import InstagramMain from './components/pages/InstagramMain';
+import PolicyMain from './components/pages/PolicyMain';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -74,14 +74,14 @@ const AppContent: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/service" element={<ServicePage />} />
-          <Route path="/criteria" element={<CriteriaPage />} />
-          <Route path="/pricing" element={<PricingPage />} />
-          <Route path="/faq" element={<FaqPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/apply" element={<ApplyPage />} />
-          <Route path="/admin" element={<AdminPage />} />
-          <Route path="/instagram" element={<InstagramRegionsPage />} />
-          <Route path="/policy" element={<PolicyPage />} />
+          <Route path="/criteria" element={<CriteriaMain />} />
+          <Route path="/pricing" element={<PricingMain />} />
+          <Route path="/faq" element={<FaqMain />} />
+          <Route path="/contact" element={<ContactMain />} />
+          <Route path="/apply" element={<ApplyMain />} />
+          <Route path="/admin" element={<AdminMain />} />
+          <Route path="/instagram" element={<InstagramMain />} />
+          <Route path="/policy" element={<PolicyMain />} />
         </Routes>
       </div>
     </>
