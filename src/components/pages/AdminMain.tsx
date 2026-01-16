@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import MainPageHeader from '../ui/MainPageHeader';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 import { IMAGES, getImageKeys, DEFAULT_IMAGES, refreshAssets } from '../../constants/assets';
 import { 
   Upload, Save, RotateCcw, AlertCircle, Loader2, Database, CheckCircle, Info, Trash2, 
@@ -290,7 +290,7 @@ const AdminMain: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="bg-[#0f0f0f] text-white"><Footer /></div>
+      <div className="bg-[#0f0f0f] text-white"><FooterSection /></div>
     </div>
   );
 };

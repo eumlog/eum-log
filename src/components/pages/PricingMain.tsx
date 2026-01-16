@@ -1,7 +1,7 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
 import PricingSection from '../sections/PricingSection';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 
 const PricingMain: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const PricingMain: React.FC = () => {
       <PricingSection />
       
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

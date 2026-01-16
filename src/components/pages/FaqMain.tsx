@@ -1,7 +1,7 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
 import FaqSection from '../sections/FaqSection';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 import { Link } from 'react-router-dom';
 import { MessageCircle } from 'lucide-react';
 
@@ -34,7 +34,7 @@ const FaqMain: React.FC = () => {
       </div>
       
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

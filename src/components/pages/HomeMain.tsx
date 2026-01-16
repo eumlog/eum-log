@@ -1,17 +1,17 @@
 import React from 'react';
-import Hero from '../sections/Hero';
-import Philosophy from '../sections/Philosophy';
-import Intro from '../sections/Intro';
-import SystemFeatures from '../sections/SystemFeatures';
-import Footer from '../sections/Footer';
+import HeroSection from '../sections/HeroSection';
+import PhilosophySection from '../sections/PhilosophySection';
+import IntroSection from '../sections/IntroSection';
+import SystemFeaturesSection from '../sections/SystemFeaturesSection';
+import FooterSection from '../sections/FooterSection';
 
 const HomeMain: React.FC = () => {
   return (
     <>
-      <Hero />
-      <Philosophy />
-      <Intro />
-      <SystemFeatures />
+      <HeroSection />
+      <PhilosophySection />
+      <IntroSection />
+      <SystemFeaturesSection />
       
       {/* Quick FAQ Section */}
       <section className="py-24 px-6 bg-gray-50">
@@ -44,7 +44,7 @@ const HomeMain: React.FC = () => {
       </section>
 
       <div className="relative bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </>
   );

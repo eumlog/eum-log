@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 import { MessageCircle, Instagram, ExternalLink, Headset } from 'lucide-react';
 
 const ContactMain: React.FC = () => {
@@ -101,7 +101,7 @@ const ContactMain: React.FC = () => {
       </div>
       
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

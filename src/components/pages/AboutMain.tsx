@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 import { Shield, Coins, MapPin, UserCheck, Infinity as InfinityIcon, Heart } from 'lucide-react';
 
 const AboutMain: React.FC = () => {
@@ -165,7 +165,7 @@ const AboutMain: React.FC = () => {
       </section>
 
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

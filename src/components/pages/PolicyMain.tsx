@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 
 const PolicyMain: React.FC = () => {
   return (
@@ -318,7 +318,7 @@ const PolicyMain: React.FC = () => {
       </section>
 
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

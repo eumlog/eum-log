@@ -1,7 +1,7 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
 import CriteriaSection from '../sections/CriteriaSection';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 import { Link } from 'react-router-dom';
 
 const CriteriaMain: React.FC = () => {
@@ -25,7 +25,7 @@ const CriteriaMain: React.FC = () => {
       </div>
       
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );

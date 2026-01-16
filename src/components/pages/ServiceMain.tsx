@@ -1,7 +1,7 @@
 import React from 'react';
 import MainPageHeader from '../ui/MainPageHeader';
 import ProcessSection from '../sections/ProcessSection';
-import Footer from '../sections/Footer';
+import FooterSection from '../sections/FooterSection';
 
 const ServiceMain: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const ServiceMain: React.FC = () => {
       <ProcessSection />
       
       <div className="bg-[#0f0f0f] text-white">
-        <Footer />
+        <FooterSection />
       </div>
     </div>
   );
